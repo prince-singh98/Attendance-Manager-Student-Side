@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/jc_class_code"
+        android:drawableLeft="@drawable/ic_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/modifiedEditText"
+        android:inputType="textPersonName"
+        android:hint="Class code"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:id="@+id/jc_roll"
+        android:drawableLeft="@drawable/ic_roll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/modifiedEditText"
+        android:inputType="textPersonName"
+        android:hint="roll"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:id="@+id/jc_name"
+        android:drawableLeft="@drawable/ic_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/modifiedEditText"
+        android:inputType="textPersonName"
+        android:hint="Name"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:id="@+id/jc_class_name"
+        android:drawableLeft="@drawable/ic_cname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/modifiedEditText"
+        android:inputType="textPersonName"
+        android:hint="Class name"
+        android:textColor="@android:color/black" />
+
+
+
+    <Button
+
+        android:id="@+id/jc_join_btn"
+        style="@style/loginButton"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="32dp"
+        android:layout_gravity="center"
+        android:text="Join Class" />
+
+</LinearLayout>

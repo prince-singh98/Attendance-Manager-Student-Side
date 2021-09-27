@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:padding="8dp"
+    android:background="@drawable/boarder">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="8dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="To"
+            android:textSize="18sp"
+            android:layout_marginRight="16dp"
+            android:layout_gravity="center"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/toTvAl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Teacher's email"
+            android:layout_gravity="center"
+            android:textSize="18sp"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_margin="8dp"
+        android:id="@+id/subjectTvAl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="subject"
+        android:textStyle="italic"/>
+
+</LinearLayout>

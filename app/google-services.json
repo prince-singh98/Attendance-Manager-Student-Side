@@ -1,0 +1,85 @@
+{
+  "project_info": {
+    "project_number": "781643578188",
+    "firebase_url": "https://attendancemanager-7711b.firebaseio.com",
+    "project_id": "attendancemanager-7711b",
+    "storage_bucket": "attendancemanager-7711b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:781643578188:android:b04ee2c42a14e8d2c0ede9",
+        "android_client_info": {
+          "package_name": "app.example.attendancemanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "781643578188-bgpt5e5nufd0qiqqpnn9jnjjhlklqmmv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.example.attendancemanager",
+            "certificate_hash": "70f9f2465b2e6da30bde3ab6da9c4afa8c15d0c9"
+          }
+        },
+        {
+          "client_id": "781643578188-4087pbpclcg881tb67cm17aickuhh0mi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1wuNq_so0_ZqOsVrknSp4Tkn5tusBiJ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "781643578188-4087pbpclcg881tb67cm17aickuhh0mi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:781643578188:android:e533063093ce509ec0ede9",
+        "android_client_info": {
+          "package_name": "app.example.studentattendancemanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "781643578188-jcgefrasb7eeatiubvrjl97viuf7om5j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.example.studentattendancemanager",
+            "certificate_hash": "70f9f2465b2e6da30bde3ab6da9c4afa8c15d0c9"
+          }
+        },
+        {
+          "client_id": "781643578188-4087pbpclcg881tb67cm17aickuhh0mi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1wuNq_so0_ZqOsVrknSp4Tkn5tusBiJ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "781643578188-4087pbpclcg881tb67cm17aickuhh0mi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
